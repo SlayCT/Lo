@@ -8,8 +8,16 @@ if (!isset($_SESSION['usuario'])) {
  
 $produtos = [
     ['id'=>1, 'nome'=>'Pelúcia Kuromi', 'preco'=>120, 'imagem'=>'https://i.pinimg.com/736x/b4/0c/3d/b40c3d6c32f1d90a4b3cf1367fbf368e.jpg'],
-    ['id'=>2, 'nome'=>'Caneca My Melody', 'preco'=>60, 'imagem'=>'https://i.pinimg.com/736x/06/e8/56/06e8564cc164f1c31e564c5da74f6659.jpg'],
-    ['id'=>3, 'nome'=>'Mochila Hello Kitty', 'preco'=>180, 'imagem'=>'https://i.pinimg.com/736x/0b/0b/92/0b0b924df87eecb1861c0cd0541477d3.jpg']
+    ['id'=>2, 'nome'=>'Pelúcia Pompompurin', 'preco'=>120, 'imagem'=>'https://http2.mlstatic.com/D_NQ_NP_2X_814804-MLB76857939480_062024-F.webp'],
+    ['id'=>3, 'nome'=>'Pelúcia Hello Kitty', 'preco'=>120, 'imagem'=>'https://cdn.awsli.com.br/2500x2500/2625/2625744/produto/352614999/d8edb187e72013e4dc5e898b574f0751-0e3qot5oi7.jpg'],
+    ['id'=>4, 'nome'=>'Caneca My Melody', 'preco'=>60, 'imagem'=>'https://i.pinimg.com/736x/06/e8/56/06e8564cc164f1c31e564c5da74f6659.jpg'],
+    ['id'=>5, 'nome'=>'Caneca Pompompurin', 'preco'=>60, 'imagem'=>'https://tse4.mm.bing.net/th/id/OIP.UlxmVEC9pQvGhxemPG9kTgHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3'],
+    ['id'=>6, 'nome'=>'Mochila Hello Kitty', 'preco'=>180, 'imagem'=>'https://i.pinimg.com/736x/0b/0b/92/0b0b924df87eecb1861c0cd0541477d3.jpg'],
+    ['id'=>7, 'nome'=>'Mochila Pompompurin', 'preco'=>180, 'imagem'=>'https://tse2.mm.bing.net/th/id/OIP.96TqV-UXrf2V9ITWOkpR1gHaHS?rs=1&pid=ImgDetMain&o=7&rm=3'],
+    ['id'=>8, 'nome'=>'Mochila Kuromi', 'preco'=>180, 'imagem'=>'https://tse2.mm.bing.net/th/id/OIP.vdYA6c1z_qxYXtmeNPevLwHaHa?w=640&h=640&rs=1&pid=ImgDetMain&o=7&rm=3'],
+    ['id'=>9, 'nome'=>'Mochila Cinnamon Roll', 'preco'=>180, 'imagem'=>'https://down-br.img.susercontent.com/file/sg-11134201-7rbm9-lnzcnenabqjibf'],
+    ['id'=>10, 'nome'=>'Caneca Hello Kitty', 'preco'=>60, 'imagem'=>'https://down-tw.img.susercontent.com/file/be057d7acd4e76c28caa7888529838e5']
+    
 ];
  
 if (isset($_GET['comprar'])) {
